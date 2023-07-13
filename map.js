@@ -3,7 +3,7 @@
  * Version: v1.1.0
  * Last Updated: 2022-05-04
  * Author: RedAlert
- * Author URL: https://twscripts.dev/
+ * Author URL: https://raw.githubusercontent.com/
  * Author Contact: redalert_tw (Discord)
  * Approved: t14107291
  * Approved Date: 2020-07-26
@@ -28,7 +28,7 @@ var scriptConfig = {
         name: 'Map Barbs Only',
         version: 'v1.1.0',
         author: 'RedAlert',
-        authorUrl: 'https://twscripts.dev/',
+        authorUrl: 'https://raw.githubusercontent.com/',
         helpLink:
             'https://forum.tribalwars.net/index.php?threads/map-barbs-only.285715/',
     },
@@ -62,7 +62,7 @@ var scriptConfig = {
     enableCountApi: true,
 };
 
-$.getScript('https://twscripts.dev/scripts/twSDK.js', async function () {
+$.getScript('https://raw.githubusercontent.com/Danieljose98/Tw/main/map.js', async function () {
     // Initialize Library
     await twSDK.init(scriptConfig);
     const scriptInfo = twSDK.scriptInfo();
