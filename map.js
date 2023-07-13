@@ -62,7 +62,7 @@ var scriptConfig = {
     enableCountApi: true,
 };
 
-$.getScript('https://raw.githubusercontent.com/Danieljose98/Tw/main/map.js', async function () {
+$.getScript('https://twscripts.dev/scripts/twSDK.js', async function () {
     // Initialize Library
     await twSDK.init(scriptConfig);
     const scriptInfo = twSDK.scriptInfo();
